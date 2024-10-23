@@ -53,7 +53,7 @@ const VideoPlayer = () => {
           <Typography>{call.name || "Name"}</Typography>
           <video
             playsInline
-            muted
+            // muted
             ref={userVideo}
             autoPlay
             className={classes.video}
